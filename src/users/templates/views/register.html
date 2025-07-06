@@ -6,11 +6,11 @@
 <div class="text-center">
     <main class="form-signin">
         <form action="" method="post">
-            <img class="mb-4" src="{% static 'images/logo.png' %}" alt="" width="120" height="120">
+            <img class="mb-4" src="{% static 'images/logo.png' %}" alt="" width="72" height="72">
             {% csrf_token %}
             {{ register_form|crispy }}
             <button class="w-100 btn btn-lg btn-danger" type="submit">Register</button>
-            <p class="mt-5 mb-3 text-muted">Copyrigth © {% now 'Y' %} AutoMax</p>
+            <p class="mt-5 mb-3 text-muted">Copyright © 2022 AutoMax</p>
         </form>
     </main>
 </div>

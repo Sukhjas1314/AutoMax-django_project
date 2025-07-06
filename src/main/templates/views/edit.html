@@ -4,11 +4,11 @@
 
 {% block 'body' %}
 <div class="container-fluid text-center py-5">
-    <div class="container px-4 py-5" id="hanging-icons">
+    <div class="container px-4 py-5">
         <div class="row g-4">
             <div class="col d-flex align-items-start">
                 <div>
-                    <h2 class="mb-3 border-bottom" style="color: black">List</h2>
+                    <h2 class="mb-3 border-bottom" style="color: black">Edit</h2>
                 </div>
             </div>
         </div>
@@ -16,10 +16,10 @@
             {% csrf_token %}
             <div class="row">
                 <div class="col-6">
-                    {{listing_form|crispy}}
+                    {{ listing_form|crispy }}
                 </div>
                 <div class="col-6">
-                    {{location_form|crispy}}
+                    {{ location_form|crispy }}
                 </div>
             </div>
             <button class="btn btn-lg btn-danger" type="submit">Save</button>
