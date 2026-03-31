@@ -183,12 +183,6 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE] file for details.
-
----
-
 ## 👨‍💻 Author
 
 <div align="center">
